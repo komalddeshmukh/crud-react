@@ -1,0 +1,63 @@
+
+.App {
+  text-align: center;
+  
+}
+
+.book-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.book-container{
+  width: 300px;
+  border:solid #282c34;
+  background-color: white;
+  
+}
+.book-poster{
+  width:250px;
+  height:200px;
+  object-fit:cover;
+}
+.book-spec{
+  font-size: 20px;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.book-summary{
+margin-top: 0px;
+}
+.book-name{
+  font-size: 25px;
+  margin: 10px;
+}
+.book-rating{
+  font-size: 18px;
+}
+.App-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.add-book-form{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  margin-bottom: 20px;
+
+}
